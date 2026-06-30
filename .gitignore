@@ -1,0 +1,15 @@
+# .NET
+backend/Fifa2026.Api/bin/
+backend/Fifa2026.Api/obj/
+backend/Fifa2026.Api/api-out.log
+backend/Fifa2026.Api/api-err.log
+backend/Fifa2026.Api/api-pid.txt
+
+# IDE
+.vs/
+.vscode/
+*.user
+
+# OS
+.DS_Store
+Thumbs.db

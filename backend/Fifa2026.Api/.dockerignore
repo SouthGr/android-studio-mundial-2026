@@ -1,0 +1,6 @@
+bin/
+obj/
+*.log
+api-out.log
+api-err.log
+api-pid.txt

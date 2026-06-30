@@ -1,0 +1,21 @@
+databases:
+  - name: fifa2026-db
+    plan: free
+    databaseName: fifa2026
+    user: fifa2026
+
+services:
+  - type: web
+    name: fifa2026-api
+    env: docker
+    plan: free
+    dockerfilePath: ./backend/Fifa2026.Api/Dockerfile
+    dockerContext: ./backend/Fifa2026.Api
+    healthCheckPath: /api/equipos
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: fifa2026-db
+          property: connectionString
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
