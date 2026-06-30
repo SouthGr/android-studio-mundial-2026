@@ -1,14 +1,14 @@
 // ============================================================
 // FIFA WORLD CUP 2026 — Lógica de la aplicación
 // SPA (Single Page Application) con router hash-based
-// Datos servidos por la API .NET + SQL Server (ver /backend)
+// Datos servidos por la API .NET + PostgreSQL (ver /backend), desplegada en Render
 // TUP Inc.
 // ============================================================
 
 // ============================================================
 // API
 // ============================================================
-const API_BASE = 'http://localhost:5110/api';
+const API_BASE = 'https://fifa2026-api.onrender.com/api';
 
 // ============================================================
 // ESTADO GLOBAL
