@@ -5,6 +5,13 @@ backend/Fifa2026.Api/api-out.log
 backend/Fifa2026.Api/api-err.log
 backend/Fifa2026.Api/api-pid.txt
 
+# Android
+android/.gradle/
+android/.idea/
+android/.kotlin/
+android/app/build/
+android/local.properties
+
 # IDE
 .vs/
 .vscode/
